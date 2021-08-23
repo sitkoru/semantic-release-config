@@ -93,5 +93,5 @@ jobs:
                     VERSION=${GITHUB_REF#refs/tags/}
                     // ещё какие-то переменный окружения вроде тегов для образа можно заполнить тут
                     echo ::set-output name=version::${VERSION}
-           // дальшие шаги по деплою. Версия доступна в переменной ${{ steps.prep.outputs.version }}
+           // дальнейшие шаги по деплою. Версия доступна в переменной ${{ steps.prep.outputs.version }}
 ```
