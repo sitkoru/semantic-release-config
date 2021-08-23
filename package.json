@@ -4,49 +4,49 @@
     "version": "0.0.0-development",
     "author": "George Drak (https://github.com/sonicgd)",
     "bugs": {
-      "url": "https://github.com/sitkoru/semantic-release-config/issues"
+        "url": "https://github.com/sitkoru/semantic-release-config/issues"
     },
     "dependencies": {
-      "@semantic-release/changelog": "^5.0.0",
-      "@semantic-release/commit-analyzer": "^8.0.0",
-      "@semantic-release/git": "^9.0.0",
-      "@semantic-release/github": "^7.0.0",
-      "@semantic-release/release-notes-generator": "^9.0.0"
+        "@semantic-release/changelog": "^5.0.0",
+        "@semantic-release/commit-analyzer": "^8.0.0",
+        "@semantic-release/git": "^9.0.0",
+        "@semantic-release/github": "^7.0.0",
+        "@semantic-release/release-notes-generator": "^9.0.0"
     },
     "devDependencies": {
-      "semantic-release": "17.4.2"
+        "semantic-release": "17.4.2"
     },
     "engines": {
-      "node": ">=10.18"
+        "node": ">=10.18"
     },
     "files": [
-      "index.js"
+        "index.js"
     ],
     "homepage": "https://github.com/sitkoru/semantic-release-config#readme",
     "keywords": [
-      "conventional-changelog",
-      "release",
-      "semantic-release",
-      "semantic-release-config",
-      "version"
+        "conventional-changelog",
+        "release",
+        "semantic-release",
+        "semantic-release-config",
+        "version"
     ],
     "license": "MIT",
     "main": "index.js",
     "peerDependencies": {
-      "semantic-release": ">=16.0.0 <18.0.0"
+        "semantic-release": ">=16.0.0 <18.0.0"
     },
     "prettier": {
-      "printWidth": 120,
-      "trailingComma": "es5"
+        "printWidth": 120,
+        "trailingComma": "es5"
     },
     "publishConfig": {
-      "access": "public"
+        "access": "public"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/sitkoru/semantic-release-config.git"
+        "type": "git",
+        "url": "https://github.com/sitkoru/semantic-release-config.git"
     },
     "scripts": {
-      "semantic-release": "semantic-release"
+        "semantic-release": "semantic-release"
     }
-  }
+}
