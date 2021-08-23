@@ -56,6 +56,8 @@ jobs:
                     persist-credentials: false
             -   name: Install node.js
                 uses: actions/setup-node@v2.4.0
+                with:
+                    node-version: '16'
             -   name: Semantic Release
                 uses: cycjimmy/semantic-release-action@v2
                 with:
