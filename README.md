@@ -60,6 +60,7 @@ jobs:
                 uses: cycjimmy/semantic-release-action@v2
                 with:
                     extra_plugins: |
+                        @sitkoru/semantic-release-config
                         @semantic-release/changelog
                         @semantic-release/git
                         // если нужны ещё плагины - перечислить тут
