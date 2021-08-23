@@ -1,2 +1,1 @@
-import * as config from "./index";
-module.exports = config;
+export * from './index';
