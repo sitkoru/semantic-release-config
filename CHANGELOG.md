@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sitkoru/semantic-release-config/compare/v1.0.0...v1.0.1) (2021-08-23)
+
+
+### Bug Fixes
+
+* **ci:** push to npm ([d3765c6](https://github.com/sitkoru/semantic-release-config/commit/d3765c67e609c9d9d06cbe932adb084c65cb5b4d))
+
 # 1.0.0 (2021-08-23)
 
 
