@@ -65,7 +65,7 @@ jobs:
                         @sitkoru/semantic-release-config
                         @semantic-release/changelog
                         @semantic-release/git
-                        // если нужны ещё плагины - перечислить тут
+#                       если нужны ещё плагины - перечислить тут
                 env:
                     GH_TOKEN: ${{ secrets.BOT_TOKEN }}
                     GIT_AUTHOR_NAME: ${{ secrets.BOT_NAME }}
