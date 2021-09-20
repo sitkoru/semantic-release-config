@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sitkoru/semantic-release-config/compare/v1.0.1...v1.1.0) (2021-09-20)
+
+
+### Features
+
+* **ci:** bump max semantic-release version to 18.0 ([db2feac](https://github.com/sitkoru/semantic-release-config/commit/db2feac8d223b4f63d02833b95380bb806103dca))
+
 ## [1.0.1](https://github.com/sitkoru/semantic-release-config/compare/v1.0.0...v1.0.1) (2021-08-23)
 
 
