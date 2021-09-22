@@ -49,29 +49,19 @@ jobs:
         needs: [ build ]
         if: ${{ github.event_name == 'push' }}
         steps:
-            -   name: Checkout
-                uses: actions/checkout@v2
-                with:
-                    fetch-depth: 0
-                    persist-credentials: false
-            -   name: Install node.js
-                uses: actions/setup-node@v2.4.0
-                with:
-                    node-version: '16'
-            -   name: Semantic Release
-                uses: cycjimmy/semantic-release-action@v2
-                with:
-                    extra_plugins: |
-                        @sitkoru/semantic-release-config
-                        @semantic-release/changelog
-                        @semantic-release/git
-#                       если нужны ещё плагины - перечислить тут
-                env:
-                    GH_TOKEN: ${{ secrets.BOT_TOKEN }}
-                    GIT_AUTHOR_NAME: ${{ secrets.BOT_NAME }}
-                    GIT_AUTHOR_EMAIL: ${{ secrets.BOT_EMAIL }}
-                    GIT_COMMITTER_NAME: ${{ secrets.BOT_NAME }}
-                    GIT_COMMITTER_EMAIL: ${{ secrets.BOT_EMAIL }}
+          - name: Checkout
+            uses: actions/checkout@v2
+            with:
+              fetch-depth: 0
+              persist-credentials: false
+          - name: Semantic Release
+            uses: sitkoru/semantic-release-action@v1
+            env:
+              GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+              GIT_AUTHOR_NAME: ${{ secrets.BOT_NAME }}
+              GIT_AUTHOR_EMAIL: ${{ secrets.BOT_EMAIL }}
+              GIT_COMMITTER_NAME: ${{ secrets.BOT_NAME }}
+              GIT_COMMITTER_EMAIL: ${{ secrets.BOT_EMAIL }}
 
 ```
 
