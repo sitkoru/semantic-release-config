@@ -7,7 +7,7 @@
         "url": "https://github.com/sitkoru/semantic-release-config/issues"
     },
     "dependencies": {
-        "@semantic-release/changelog": "^5.0.0",
+        "@semantic-release/changelog": "^6.0.0",
         "@semantic-release/commit-analyzer": "^8.0.0",
         "@semantic-release/git": "^9.0.0",
         "@semantic-release/github": "^7.0.0",
