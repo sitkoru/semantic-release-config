@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/sitkoru/semantic-release-config/compare/v1.1.0...v1.2.0) (2021-12-28)
+
+
+### Features
+
+* add more branches ([c1a701f](https://github.com/sitkoru/semantic-release-config/commit/c1a701f21d1fa3140d2c540e0b998aee44dec5b2))
+* update deps ([c21fac9](https://github.com/sitkoru/semantic-release-config/commit/c21fac927384471f0cc0465e2da4e0eef09bf177))
+
 # [1.1.0](https://github.com/sitkoru/semantic-release-config/compare/v1.0.1...v1.1.0) (2021-09-20)
 
 
