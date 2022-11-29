@@ -7,14 +7,12 @@
         "url": "https://github.com/sitkoru/semantic-release-config/issues"
     },
     "dependencies": {
-        "@semantic-release/changelog": "^6.0.1",
-        "@semantic-release/commit-analyzer": "^9.0.2",
-        "@semantic-release/git": "^10.0.1",
-        "@semantic-release/github": "^8.0.2",
+        "@semantic-release/commit-analyzer": "^9.0.2",       
+        "@semantic-release/github": "^8.0.7",
         "@semantic-release/release-notes-generator": "^10.0.3"
     },
     "devDependencies": {
-        "semantic-release": "18.0.0"
+        "semantic-release": "19.0.0"
     },
     "engines": {
         "node": ">=10.18"
@@ -33,7 +31,7 @@
     "license": "MIT",
     "main": "index.js",
     "peerDependencies": {
-        "semantic-release": "^18.0.1"
+        "semantic-release": "^19.0.0"
     },
     "prettier": {
         "printWidth": 120,
